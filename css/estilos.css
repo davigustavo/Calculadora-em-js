@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background: linear-gradient(to left top,#131B26,#132623);
+}
+
+html, body {
+    height: 100%;
+}
+
+.area-cauculadora {
+    width: 300px;
+    padding: 10px 20px;
+    border: 5px solid white;
+    border-radius: 4px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:  translateY(-50%) translateX(-50%);
+}
+
+#visor {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 4px;
+    background: none;
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.botoes button {
+    flex-basis: 20%;
+    height: 50px;
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.botoes button:last-child {
+    flex-basis: 45%;
+}
+
+.botoes button:hover {
+    transform: scale(1.08);
+}
