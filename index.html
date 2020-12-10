@@ -11,9 +11,9 @@
         <form id="cauculadora">
             <input id="visor">
             <div class="botoes">
-                <button type="button">C</button>
-                <button type="button">&radic;</button>
-                <button type="button">&larr;</button>
+                <button onclick="LimparVisor()" type="button">C</button>
+                <button onclick="RaizQuadrada()" type="button">&radic;</button>
+                <button onclick="Apagar()" type="button">&larr;</button>
                 <button onclick="Inserir0()" id="botao0" type="button">0</button><br>
 
                 <button onclick="Inserir7()" type="button">7</button>
@@ -33,7 +33,7 @@
 
                 <button onclick="InserirPonto()" type="button">.</button>
                 <button onclick="InserirMais()" type="button">+</button>
-                <button type="button">=</butttom>
+                <button onclick="Calcular()" type="button">=</butttom>
             </div>
         </form>
 
