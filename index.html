@@ -9,30 +9,30 @@
 <body>
     <div class="area-cauculadora">
         <form id="cauculadora">
-            <input id="visor">
+            <input readonly id="visor">
             <div class="botoes">
-                <button onclick="LimparVisor()" type="button">C</button>
-                <button onclick="RaizQuadrada()" type="button">&radic;</button>
-                <button onclick="Apagar()" type="button">&larr;</button>
-                <button onclick="Inserir0()" id="botao0" type="button">0</button><br>
+                <button onclick="LimparVisor();" type="button">C</button>
+                <button onclick="RaizQuadrada();" type="button">&radic;</button>
+                <button onclick="Apagar();" type="button">&larr;</button>
+                <button onclick="Inserir('0');" id="botao0" type="button">0</button><br>
 
-                <button onclick="Inserir7()" type="button">7</button>
-                <button onclick="Inserir8()" type="button">8</button>
-                <button onclick="Inserir9()" type="button">9</button>
-                <button onclick="InserirMult()" type="button">*</button>
+                <button onclick="Inserir('7');" type="button">7</button>
+                <button onclick="Inserir('8');" type="button">8</button>
+                <button onclick="Inserir('9');" type="button">9</button>
+                <button onclick="Inserir('*');" type="button">*</button>
 
-                <button onclick="Inserir4()" type="button">4</button>
-                <button onclick="Inserir5()" type="button">5</button>
-                <button onclick="Inserir6()" type="button">6</button>
-                <button onclick="InserirDivi()" type="button">/</button>
+                <button onclick="Inserir('4');" type="button">4</button>
+                <button onclick="Inserir('5');" type="button">5</button>
+                <button onclick="Inserir('6');" type="button">6</button>
+                <button onclick="Inserir('/');" type="button">/</button>
 
-                <button onclick="Inserir1()" type="button">1</button>
-                <button onclick="Inserir2()" type="button">2</button>
-                <button onclick="Inserir3()" type="button">3</button>
-                <button onclick="InserirMenos()" type="button">-</button>
+                <button onclick="Inserir('1');" type="button">1</button>
+                <button onclick="Inserir('2');" type="button">2</button>
+                <button onclick="Inserir('3');" type="button">3</button>
+                <button onclick="Inserir('-');" type="button">-</button>
 
-                <button onclick="InserirPonto()" type="button">.</button>
-                <button onclick="InserirMais()" type="button">+</button>
+                <button onclick="Inserir('.');" type="button">.</button>
+                <button onclick="Inserir('+');"type="button">+</button>
                 <button onclick="Calcular()" type="button">=</butttom>
             </div>
         </form>
